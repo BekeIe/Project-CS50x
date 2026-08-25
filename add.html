@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add
+{% endblock %}
+
+{% block main %}
+    <h2>Add</h2>
+
+    <div>
+        <form action="/add" method="post">
+            <input name="coursename" placeholder="Name" type="text">
+            <p></p>
+            <input name="courseteacher" placeholder="Teacher" type="text">
+            <p></p>
+            <input name="coursesite" placeholder="Site" type="text">
+            <p></p>
+            <input name="coursetime" placeholder="Time(Usage Like: Monday 11-12, Tuesday 4)" type="text">
+            <p></p>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+{% endblock %}

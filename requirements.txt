@@ -1,0 +1,20 @@
+cs50
+Flask
+Flask-Session
+pytz
+requests
+
+# CREATE TABLE user (
+#     id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+#     username TEXT NOT NULL,
+#     hash TEXT NOT NULL
+# );
+# CREATE UNIQUE INDEX username ON user (username);
+
+# CREATE TABLE course (
+#     id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+#     name TEXT NOT NULL,
+#     teacher TEXT NOT NULL,
+#     site TEXT NOT NULL,
+#     time TEXT NOT NULL
+# );
