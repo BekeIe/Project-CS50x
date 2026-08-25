@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Update
+{% endblock %}
+
+{% block main %}
+    <h2>Update</h2>
+
+    <div>
+        <form action="/update" method="post">
+            <input name="originname" placeholder="Original Name" type="text">
+            <input name="originteacher" placeholder="Original Teacher" type="text">
+            <input name="originsite" placeholder="Original Site" type="text">
+            <input name="origintime" placeholder="Original Time" type="text">
+            <p></p>
+            <input name="newname" placeholder="New Name" type="text">
+            <input name="newteacher" placeholder="New Teacher" type="text">
+            <input name="newsite" placeholder="New Site" type="text">
+            <input name="newtime" placeholder="New Time" type="text">
+            <p></p>
+            <button type="submit">Update</button>
+        </form>
+    </div>
+{% endblock %}
